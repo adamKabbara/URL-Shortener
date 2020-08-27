@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+   <head>
+      <title>URL Shortener</title>
+      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="new.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+      <div class="container">
+        <div class="title">
+        <h2>URL Shortener API</h2>
+        </div>
+        <h3></h3> 
+        
+        <h3>Instructions </h3>
+        <p>
+            Input the URL of the website you would like to create a shortened URL for (include https://www) and click the submit button.
+    
+        </p>
+
+        <p>
+            The shortened URL can be used by inputting the code given at the end of "https://cream-rowan-turkey.glitch.me/api/shorturl/REPLACE_WITH_CODE".
+       
+        </p>
+        
+        <form action="api/shorturl/new" method="post">
+          <label for="url_input">URL to be shortened</label>
+          <input id="url_input" type="text" name="url" value="">
+          <input class="button" type="submit" value="POST URL">
+        </form> 
+    
+
+     
+      </div>
+      <div class="footer">
+    
+      </div>
+   </body>
+
+
+</html>
